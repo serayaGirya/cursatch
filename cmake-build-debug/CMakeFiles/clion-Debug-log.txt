@@ -1,4 +1,16 @@
 "D:\CLion_2\CLion 2022.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/CLion_2/CLion 2022.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S "D:\CLion Projects\reWork_Model" -B "D:\CLion Projects\reWork_Model\cmake-build-debug"
--- Configuring done
--- Generating done
--- Build files have been written to: D:/CLion Projects/reWork_Model/cmake-build-debug
+CMake Error at CMakeLists.txt:6 (find_package):
+  Could not find a package configuration file provided by "SFML" with any of
+  the following names:
+
+    SFMLConfig.cmake
+    sfml-config.cmake
+
+  Add the installation prefix of "SFML" to CMAKE_PREFIX_PATH or set
+  "SFML_DIR" to a directory containing one of the above files.  If "SFML"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "D:/CLion Projects/reWork_Model/cmake-build-debug/CMakeFiles/CMakeOutput.log".
