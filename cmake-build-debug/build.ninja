@@ -18,7 +18,7 @@
 #############################################
 # Minimal version of Ninja required by this file
 
-ninja_required_version = 1.5
+ninja_required_version = 1.8
 
 
 #############################################
@@ -40,81 +40,6 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = D$:/CLion$ Projects/reWork_Model/cmake-build-debug/
-# =============================================================================
-# Object build statements for EXECUTABLE target reWork_Model
-
-
-#############################################
-# Order-only phony target for reWork_Model
-
-build cmake_object_order_depends_target_reWork_Model: phony || CMakeFiles/reWork_Model.dir
-
-build CMakeFiles/reWork_Model.dir/src/main.cpp.obj: CXX_COMPILER__reWork_Model_Debug D$:/CLion$ Projects/reWork_Model/src/main.cpp || cmake_object_order_depends_target_reWork_Model
-  DEP_FILE = CMakeFiles\reWork_Model.dir\src\main.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\reWork_Model.dir
-  OBJECT_FILE_DIR = CMakeFiles\reWork_Model.dir\src
-
-build CMakeFiles/reWork_Model.dir/src/AdjacencyMatrix.cpp.obj: CXX_COMPILER__reWork_Model_Debug D$:/CLion$ Projects/reWork_Model/src/AdjacencyMatrix.cpp || cmake_object_order_depends_target_reWork_Model
-  DEP_FILE = CMakeFiles\reWork_Model.dir\src\AdjacencyMatrix.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\reWork_Model.dir
-  OBJECT_FILE_DIR = CMakeFiles\reWork_Model.dir\src
-
-build CMakeFiles/reWork_Model.dir/src/Car.cpp.obj: CXX_COMPILER__reWork_Model_Debug D$:/CLion$ Projects/reWork_Model/src/Car.cpp || cmake_object_order_depends_target_reWork_Model
-  DEP_FILE = CMakeFiles\reWork_Model.dir\src\Car.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\reWork_Model.dir
-  OBJECT_FILE_DIR = CMakeFiles\reWork_Model.dir\src
-
-build CMakeFiles/reWork_Model.dir/src/Crossroad.cpp.obj: CXX_COMPILER__reWork_Model_Debug D$:/CLion$ Projects/reWork_Model/src/Crossroad.cpp || cmake_object_order_depends_target_reWork_Model
-  DEP_FILE = CMakeFiles\reWork_Model.dir\src\Crossroad.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\reWork_Model.dir
-  OBJECT_FILE_DIR = CMakeFiles\reWork_Model.dir\src
-
-build CMakeFiles/reWork_Model.dir/src/Model.cpp.obj: CXX_COMPILER__reWork_Model_Debug D$:/CLion$ Projects/reWork_Model/src/Model.cpp || cmake_object_order_depends_target_reWork_Model
-  DEP_FILE = CMakeFiles\reWork_Model.dir\src\Model.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\reWork_Model.dir
-  OBJECT_FILE_DIR = CMakeFiles\reWork_Model.dir\src
-
-build CMakeFiles/reWork_Model.dir/src/Road.cpp.obj: CXX_COMPILER__reWork_Model_Debug D$:/CLion$ Projects/reWork_Model/src/Road.cpp || cmake_object_order_depends_target_reWork_Model
-  DEP_FILE = CMakeFiles\reWork_Model.dir\src\Road.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\reWork_Model.dir
-  OBJECT_FILE_DIR = CMakeFiles\reWork_Model.dir\src
-
-build CMakeFiles/reWork_Model.dir/src/TownRoads.cpp.obj: CXX_COMPILER__reWork_Model_Debug D$:/CLion$ Projects/reWork_Model/src/TownRoads.cpp || cmake_object_order_depends_target_reWork_Model
-  DEP_FILE = CMakeFiles\reWork_Model.dir\src\TownRoads.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\reWork_Model.dir
-  OBJECT_FILE_DIR = CMakeFiles\reWork_Model.dir\src
-
-build CMakeFiles/reWork_Model.dir/src/TransportRoute.cpp.obj: CXX_COMPILER__reWork_Model_Debug D$:/CLion$ Projects/reWork_Model/src/TransportRoute.cpp || cmake_object_order_depends_target_reWork_Model
-  DEP_FILE = CMakeFiles\reWork_Model.dir\src\TransportRoute.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\reWork_Model.dir
-  OBJECT_FILE_DIR = CMakeFiles\reWork_Model.dir\src
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target reWork_Model
-
-
-#############################################
-# Link the executable reWork_Model.exe
-
-build reWork_Model.exe: CXX_EXECUTABLE_LINKER__reWork_Model_Debug CMakeFiles/reWork_Model.dir/src/main.cpp.obj CMakeFiles/reWork_Model.dir/src/AdjacencyMatrix.cpp.obj CMakeFiles/reWork_Model.dir/src/Car.cpp.obj CMakeFiles/reWork_Model.dir/src/Crossroad.cpp.obj CMakeFiles/reWork_Model.dir/src/Model.cpp.obj CMakeFiles/reWork_Model.dir/src/Road.cpp.obj CMakeFiles/reWork_Model.dir/src/TownRoads.cpp.obj CMakeFiles/reWork_Model.dir/src/TransportRoute.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\reWork_Model.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = reWork_Model.exe
-  TARGET_IMPLIB = libreWork_Model.dll.a
-  TARGET_PDB = reWork_Model.exe.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -139,9 +64,106 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/CLion Projects/reWork_Model/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target reWork_Model
+
+
+#############################################
+# Order-only phony target for reWork_Model
+
+build cmake_object_order_depends_target_reWork_Model: phony || src/CMakeFiles/reWork_Model.dir
+
+build src/CMakeFiles/reWork_Model.dir/Field.cpp.obj: CXX_COMPILER__reWork_Model_Debug D$:/CLion$ Projects/reWork_Model/src/Field.cpp || cmake_object_order_depends_target_reWork_Model
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = src\CMakeFiles\reWork_Model.dir\Field.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
+  INCLUDES = -isystem D:/SFML-2.5.1/include
+  OBJECT_DIR = src\CMakeFiles\reWork_Model.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\reWork_Model.dir
+
+build src/CMakeFiles/reWork_Model.dir/Game.cpp.obj: CXX_COMPILER__reWork_Model_Debug D$:/CLion$ Projects/reWork_Model/src/Game.cpp || cmake_object_order_depends_target_reWork_Model
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = src\CMakeFiles\reWork_Model.dir\Game.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
+  INCLUDES = -isystem D:/SFML-2.5.1/include
+  OBJECT_DIR = src\CMakeFiles\reWork_Model.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\reWork_Model.dir
+
+build src/CMakeFiles/reWork_Model.dir/Shape.cpp.obj: CXX_COMPILER__reWork_Model_Debug D$:/CLion$ Projects/reWork_Model/src/Shape.cpp || cmake_object_order_depends_target_reWork_Model
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = src\CMakeFiles\reWork_Model.dir\Shape.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
+  INCLUDES = -isystem D:/SFML-2.5.1/include
+  OBJECT_DIR = src\CMakeFiles\reWork_Model.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\reWork_Model.dir
+
+build src/CMakeFiles/reWork_Model.dir/FiguresGeneration.cpp.obj: CXX_COMPILER__reWork_Model_Debug D$:/CLion$ Projects/reWork_Model/src/FiguresGeneration.cpp || cmake_object_order_depends_target_reWork_Model
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = src\CMakeFiles\reWork_Model.dir\FiguresGeneration.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
+  INCLUDES = -isystem D:/SFML-2.5.1/include
+  OBJECT_DIR = src\CMakeFiles\reWork_Model.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\reWork_Model.dir
+
+build src/CMakeFiles/reWork_Model.dir/main.cpp.obj: CXX_COMPILER__reWork_Model_Debug D$:/CLion$ Projects/reWork_Model/src/main.cpp || cmake_object_order_depends_target_reWork_Model
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = src\CMakeFiles\reWork_Model.dir\main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
+  INCLUDES = -isystem D:/SFML-2.5.1/include
+  OBJECT_DIR = src\CMakeFiles\reWork_Model.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\reWork_Model.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target reWork_Model
+
+
+#############################################
+# Link the executable src\reWork_Model.exe
+
+build src/reWork_Model.exe: CXX_EXECUTABLE_LINKER__reWork_Model_Debug src/CMakeFiles/reWork_Model.dir/Field.cpp.obj src/CMakeFiles/reWork_Model.dir/Game.cpp.obj src/CMakeFiles/reWork_Model.dir/Shape.cpp.obj src/CMakeFiles/reWork_Model.dir/FiguresGeneration.cpp.obj src/CMakeFiles/reWork_Model.dir/main.cpp.obj | D$:/SFML-2.5.1/lib/libsfml-system-s-d.a D$:/SFML-2.5.1/lib/libsfml-window-s-d.a D$:/SFML-2.5.1/lib/libsfml-graphics-s-d.a D$:/SFML-2.5.1/lib/libsfml-audio-s-d.a D$:/SFML-2.5.1/lib/libsfml-window-s-d.a D$:/SFML-2.5.1/lib/libfreetype.a D$:/SFML-2.5.1/lib/libsfml-system-s-d.a D$:/SFML-2.5.1/lib/libopenal32.a D$:/SFML-2.5.1/lib/libvorbisfile.a D$:/SFML-2.5.1/lib/libvorbisenc.a D$:/SFML-2.5.1/lib/libvorbis.a D$:/SFML-2.5.1/lib/libogg.a D$:/SFML-2.5.1/lib/libFLAC.a
+  FLAGS = -g
+  LINK_LIBRARIES = D:/SFML-2.5.1/lib/libsfml-system-s-d.a  D:/SFML-2.5.1/lib/libsfml-window-s-d.a  D:/SFML-2.5.1/lib/libsfml-graphics-s-d.a  D:/SFML-2.5.1/lib/libsfml-audio-s-d.a  D:/SFML-2.5.1/lib/libsfml-window-s-d.a  -lgdi32  -lOpenGL32  D:/SFML-2.5.1/lib/libfreetype.a  D:/SFML-2.5.1/lib/libsfml-system-s-d.a  -lwinmm  D:/SFML-2.5.1/lib/libopenal32.a  D:/SFML-2.5.1/lib/libvorbisfile.a  D:/SFML-2.5.1/lib/libvorbisenc.a  D:/SFML-2.5.1/lib/libvorbis.a  D:/SFML-2.5.1/lib/libogg.a  D:/SFML-2.5.1/lib/libFLAC.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = src\CMakeFiles\reWork_Model.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = src\reWork_Model.exe
+  TARGET_IMPLIB = src\libreWork_Model.dll.a
+  TARGET_PDB = reWork_Model.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "D:\CLion Projects\reWork_Model\cmake-build-debug\src" && "D:\CLion_2\CLion 2022.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build src/edit_cache: phony src/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "D:\CLion Projects\reWork_Model\cmake-build-debug\src" && "D:\CLion_2\CLion 2022.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"D:\CLion Projects\reWork_Model" -B"D:\CLion Projects\reWork_Model\cmake-build-debug""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
-build reWork_Model: phony reWork_Model.exe
+build reWork_Model: phony src/reWork_Model.exe
+
+build reWork_Model.exe: phony src/reWork_Model.exe
 
 # =============================================================================
 # Folder targets.
@@ -151,23 +173,44 @@ build reWork_Model: phony reWork_Model.exe
 #############################################
 # Folder: D:/CLion Projects/reWork_Model/cmake-build-debug
 
-build all: phony reWork_Model.exe
+build all: phony src/all
+
+# =============================================================================
+
+#############################################
+# Folder: D:/CLion Projects/reWork_Model/cmake-build-debug/src
+
+build src/all: phony src/reWork_Model.exe
 
 # =============================================================================
 # Built-in targets
 
 
 #############################################
+# Phony target to force glob verification run.
+
+build D$:/CLion$ Projects/reWork_Model/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake_force: phony
+
+
+#############################################
+# Re-run CMake to check if globbed directories changed.
+
+build D$:/CLion$ Projects/reWork_Model/cmake-build-debug/CMakeFiles/cmake.verify_globs: VERIFY_GLOBS | D$:/CLion$ Projects/reWork_Model/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake_force
+  pool = console
+  restat = 1
+
+
+#############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/CLion$ Projects/reWork_Model/CMakeLists.txt D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE D$:/CLion$ Projects/reWork_Model/cmake-build-debug/CMakeFiles/cmake.verify_globs | CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/CLion$ Projects/reWork_Model/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake D$:/CLion$ Projects/reWork_Model/CMakeLists.txt D$:/CLion$ Projects/reWork_Model/src/CMakeLists.txt D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake D$:/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake D$:/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake D$:/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake D$:/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-debug.cmake D$:/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-release.cmake D$:/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/CLion$ Projects/reWork_Model/CMakeLists.txt D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake: phony
+build CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/CLion$ Projects/reWork_Model/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake D$:/CLion$ Projects/reWork_Model/CMakeLists.txt D$:/CLion$ Projects/reWork_Model/src/CMakeLists.txt D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/CLion_2/CLion$ 2022.2/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake D$:/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake D$:/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake D$:/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake D$:/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-debug.cmake D$:/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-release.cmake D$:/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets.cmake: phony
 
 
 #############################################
